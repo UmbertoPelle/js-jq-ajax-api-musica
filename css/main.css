@@ -11,7 +11,7 @@ body{
 .cd{
   width: calc(100% / 5.5);
   margin: 5px 5px;
-  background-color: #fff;
+  background-color: #0000001c;
   float:left;
 }
 
@@ -51,7 +51,7 @@ body{
 #btnAlbum{
   border-radius: 15px;
   border: 0;
-  background: lightgreen;
+  background: #ea7ec6;
   padding: 5px;
   color: #fff;
 }
@@ -60,5 +60,5 @@ body{
   border: 0;
   background: transparent;
   border-bottom: solid;
-  color: lightgreen;
+  color: #ea7ec6;
 }
