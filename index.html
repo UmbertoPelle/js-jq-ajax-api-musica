@@ -4,14 +4,15 @@
     <meta charset="utf-8">
     <title>Album Boolean</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.6/handlebars.min.js">
     <script id="cd-template" type="text/x-handlebars-template">
       <div class="cd">
-        <img src="{{ poster }}" alt="poster cd">;
-        <h3>{{ title }}</h3>;
-        <h5 class="author">{{ author }}</h5>;
-        <span class="genre">{{ genre }}</span>;
-        <span class="year">{{ year }}</span>;
+        <img src="{{ poster }}" alt="poster cd">
+        <h3>{{ title }}</h3>
+        <h5 class="author">{{ author }}</h5>
+        <span class="genre">{{ genre }}</span>
+        <span class="year">{{ year }}</span>
       </div>
     </script>
   </head>
