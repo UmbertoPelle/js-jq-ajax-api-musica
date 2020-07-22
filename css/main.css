@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #567
+}
+
+.cd{
+  width: 200px;
+  margin: 5px;
+  background-color: #fff;
+  float:left;
+}
+
+.cd img{
+  max-width: 100%;
+}
