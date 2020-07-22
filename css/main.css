@@ -9,9 +9,8 @@ body{
 }
 
 .cd{
-  width: calc(100% / 5);
-  padding: 5px;
-  border: solid 1px blue;
+  width: calc(100% / 5.5);
+  margin: 5px 5px;
   background-color: #fff;
   float:left;
 }
@@ -20,8 +19,20 @@ body{
   max-width: 97%;
 }
 
+.cd:hover{
+  transform: scale(1.2);
+  background: #968
+}
+
 .containerCD{
   height: 270px;
+  text-align: center;
+  padding-top: 6px;
+}
+
+.author{
+  text-decoration: underline;
+  color: #ccc;
 }
 
 #album{
@@ -30,4 +41,24 @@ body{
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+}
+
+.tips{
+  text-align: center;
+  margin: 10px 0;
+}
+
+#btnAlbum{
+  border-radius: 15px;
+  border: 0;
+  background: lightgreen;
+  padding: 5px;
+  color: #fff;
+}
+
+.genreTips{
+  border: 0;
+  background: transparent;
+  border-bottom: solid;
+  color: lightgreen;
 }
