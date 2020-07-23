@@ -30,13 +30,14 @@ function choiceOnHtml(album , choice) {
   for (var i = 0; i < album.length; i++) {
     var cd = album[i];
     if (cd['genre'] == choice) {
-      var cdHTML= compiled({
-        'poster': cd['poster'],
-        'title' : cd['title'],
-        'author': cd['author'],
-        'genre': cd['genre'],
-        'year': cd['year']
-      });
+      // var cdHTML= compiled({
+      //   'poster': cd['poster'],
+      //   'title' : cd['title'],
+      //   'author': cd['author'],
+      //   'genre': cd['genre'],
+      //   'year': cd['year']
+      // });
+      var cdHTML= compiled(cd);
       target.append(cdHTML);
     }
 

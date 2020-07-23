@@ -22,13 +22,14 @@ function writeOnHtml(album) {
 
   for (var i = 0; i < album.length; i++) {
     var cd = album[i];
-    var cdHTML= compiled({
-      'poster': cd['poster'],
-      'title' : cd['title'],
-      'author': cd['author'],
-      'genre': cd['genre'],
-      'year': cd['year']
-    });
+    // var cdHTML= compiled({
+    //   'poster': cd['poster'],
+    //   'title' : cd['title'],
+    //   'author': cd['author'],
+    //   'genre': cd['genre'],
+    //   'year': cd['year']
+    // });
+    var cdHTML= compiled(cd);
     target.append(cdHTML);
   }
 }
